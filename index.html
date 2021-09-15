@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+</head>
+<header>
+    <div id="heading">
+        <h1>ToDo List</h1>
+        <input type="text" id="search" placeholder="Search item">
+    </div>
+</header>
+<main>
+    <div class="list">
+        <form>
+            <input type="text" id="new" placeholder="Add new">
+            <button id="add">+</button><br>
+        </form>
+        <ul>
+            <li class="item">ToDo 4<span><button class="btn">X</button></span></li>
+            <li class="item">ToDo 3<span><button class="btn">X</button></span></li>
+            <li class="item">ToDo 2<span><button class="btn">X</button></span></li>
+            <li class="item">ToDo 1<span><button class="btn">X</button></span></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <div class="undo_message">
+            <p id="message">item deleted</p>
+            <button id="undo">Undo</button>
+        </div>
+    </div>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="main.js"></script>
+</html>
